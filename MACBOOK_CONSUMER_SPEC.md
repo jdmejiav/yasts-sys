@@ -81,7 +81,7 @@ Use this after the library is pushed to GitHub.
 
 ```toml
 [dependencies]
-yasts-audio = { git = "https://github.com/juanmejia/yasts-sys", package = "yasts-audio" }
+yasts-audio = { git = "https://github.com/jdmejiav/yasts-sys", package = "yasts-audio" }
 ```
 
 Pros:
