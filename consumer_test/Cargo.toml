@@ -1,0 +1,10 @@
+[package]
+name = "consumer-test"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+cpal = "0.15"
+yasts-audio = { path = "../crates/yasts-audio" }
