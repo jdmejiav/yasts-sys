@@ -12,7 +12,7 @@ or from crates.io.
 The library lives here:
 
 ```text
-/Users/juanmejia/repos/yasts-sys/crates/yasts-audio
+../yasts-sys/crates/yasts-audio
 ```
 
 The current crate name is:
@@ -30,7 +30,7 @@ use yasts_audio::{Analyzer, AnalyzerConfig};
 Before building the consumer, verify the library:
 
 ```sh
-cd /Users/juanmejia/repos/yasts-sys
+cd ../yasts-sys
 cargo test
 cargo clippy --all-targets -- -D warnings
 ```
@@ -212,7 +212,7 @@ Report anything that should be fixed before publishing.
 Commands:
 
 ```sh
-cd /Users/juanmejia/repos/yasts-sys
+cd ../yasts-sys
 cargo test
 cargo clippy --all-targets -- -D warnings
 cargo package -p yasts-audio
